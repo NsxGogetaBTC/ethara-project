@@ -1,0 +1,24 @@
+# Root-level ignores
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+
+# IDE/editor directories
+.idea/
+.vscode/
+
+# System files
+Thumbs.db
+
+# Ignore any node_modules directories anywhere under project
+node_modules/
+
+# Ignore built distribution directories in nested projects
+frontend/dist/
+backend/dist/
